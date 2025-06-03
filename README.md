@@ -2,10 +2,6 @@
 
 This repo is for the resources of **Beyond Language Boundaries: Uncovering Programming Language Families for Code Language Models**. 
 
-## Summary
-
-The growing diversity of programming languages introduces new challenges for building effective multilingual code large language models (LLMs), particularly in handling language heterogeneity and ensuring cross-language generalization. While most existing approaches simply aggregate code from multiple languages, few consider the deeper linguistic relationships between them—or how these relationships impact model performance.
-
 Our work presents a semantic embedding-based framework to uncover the latent structure and family relationships among 19 popular programming languages, based on 21 carefully designed linguistic features. To evaluate the practical value of these discovered language families, we conduct experiments on three key downstream tasks: transfer learning, curriculum learning, and intermediary code translation. These tasks help us systematically assess how linguistic similarity can guide and improve multilingual LLM training.
 
 ## Overview
