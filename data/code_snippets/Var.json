@@ -1,0 +1,10 @@
+{
+    "Rust Var": "let x = 10;\nlet y = 3.14;\nlet z = 'A';",
+    "JavaScript Var": "let x = 10;\nlet y = 3.14;\nlet z = 'A';",
+    "Python Var": "x = 10\ny = 3.14\nz = \"A\"\n",
+    "Java Var": "int x = 10;\ndouble y = 3.14;\nchar z = 'A';\n",
+    "Kotlin Var": "val x = 10\nval y = 3.14\nval z = 'A'\n",
+    "C++ Var": "int x = 10;\ndouble y = 3.14;\nchar z = 'A';",
+    "Haskell Var": "let x = 10\n    y = 3.14\n    z = 'A'\n",
+    "C Var": "int x = 10;\nfloat y = 3.14;\nchar z = 'A';"
+}

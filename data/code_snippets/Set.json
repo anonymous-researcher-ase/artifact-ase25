@@ -1,0 +1,10 @@
+{
+    "Rust Set": "let set: Vec<i32> = vec![1, 2, 3, 4, 5];",
+    "JavaScript Set": "let set = new Set([1, 2, 3, 4, 5]);",
+    "Python Set": "st = {1, 2, 3, 4, 5}\n",
+    "Java Set": "Set<Integer> set = new HashSet<>(Arrays.asList(1, 2, 3, 4, 5));",
+    "Kotlin Set": "val set = setOf(1, 2, 3, 4, 5)\n",
+    "C++ Set": "set<int> s = {1, 2, 3, 4, 5};",
+    "Haskell Set": "let set = Set.fromList [1, 2, 3, 4, 5] :: Set.Set Int\n",
+    "C Set": "int set[MAX_SIZE / 2];\nfor (int i = 0; i < MAX_SIZE / 2; i++)\n{\n    set[i] = i * 3;\n}"
+}

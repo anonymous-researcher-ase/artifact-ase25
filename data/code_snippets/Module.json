@@ -1,0 +1,10 @@
+{
+    "Rust Module": "extern crate reqwest;\n\nasync fn main() -> Result<(), Box<dyn Error>> {\n    let response = reqwest::get(\"https://api.github.com\").await?;\n}\n",
+    "JavaScript Module": "const _ = require('lodash');\n\nconst sum = _.sum(numbers);\nconst max = _.max(numbers);",
+    "Python Module": "import requests\n\n\ndef main():\n    response = requests.get(\"https://api.github.com\")\n",
+    "Java Module": "import java.util.ArrayList;\n\npublic class code {\n    public static void main(String[] args) {\n        ArrayList<String> list = new ArrayList<String>();\n    }\n}\n",
+    "Kotlin Module": "import org.apache.commons.lang3.StringUtils\n\nfun main() {\n    val reversedStr = StringUtils.reverse(str)\n}\n",
+    "C++ Module": "#include <iostream>\n#include \"my_library.hpp\"\n\nint main()\n{\n    int sum = add(a, b);\n}\n",
+    "Haskell Module": "import Data.List (sort)\n\nmain :: IO ()\nmain = do\n    \n    let sortedNumbers = sort numbers\n",
+    "C Module": "#include <stdio.h>\n#include \"third_party_library.h\"\n\nint main()\n{\n    int result = add(x, y);\n}\n"
+}

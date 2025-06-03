@@ -1,0 +1,10 @@
+{
+    "Rust Filter": "fn my_filter<F, T>(func: F, arr: Vec<T>) -> Vec<T>\nwhere\n    F: Fn(&T) -> bool,\n{\n    arr.into_iter().filter(|x| func(x)).collect()\n}",
+    "JavaScript Filter": "function filter(callback, arr) {\n    const result = [];\n    for (let i = 0; i < arr.length; i++) {\n        if (callback(arr[i])) {\n            result.push(arr[i]);\n        }\n    }\n    return result;\n}",
+    "Python Filter": "def my_filter(func, lst):\n    result = []\n    for x in lst:\n        if func(x):\n            result.append(x)\n    return result\n",
+    "Java Filter": "public static <T> List<T> filter(Predicate<T> predicate, List<T> list) {\n    List<T> result = new ArrayList<>();\n    for (T item : list) {\n        if (predicate.test(item)) {\n            result.add(item);\n        }\n    }\n    return result;\n}",
+    "Kotlin Filter": "fun <T> myFilter(predicate: (T) -> Boolean, list: List<T>): List<T> {\n    val result = mutableListOf<T>()\n    for (item in list) {\n        if (predicate(item)) {\n            result.add(item)\n        }\n    }\n    return result\n}\n",
+    "C++ Filter": "std::vector<int> filter(const std::vector<int> &arr, filter_func func)\n{\n    std::vector<int> result;\n    for (int x : arr)\n    {\n        if (func(x))\n        {\n            result.push_back(x);\n        }\n    }\n    return result;\n}",
+    "Haskell Filter": "filter' :: (a -> Bool) -> [a] -> [a]\nfilter' _ [] = []\nfilter' p (x:xs)\n    | p x       = x : filter' p xs\n    | otherwise = filter' p xs",
+    "C Filter": "int filter(int *arr, int size, filter_func func)\n{\n    int count = 0;\n    for (int i = 0; i < size; i++)\n    {\n        if (func(arr[i]))\n        {\n            arr[count++] = arr[i];\n        }\n    }\n    return count;\n}"
+}

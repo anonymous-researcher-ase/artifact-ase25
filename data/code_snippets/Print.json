@@ -1,0 +1,10 @@
+{
+    "Rust Print": "println!(\"Integer: {}\", x);\nprintln!(\"Float: {}\", y);\nprintln!(\"Character: {}\", z);",
+    "JavaScript Print": "console.log(\"Integer: \" + x);\nconsole.log(\"Float: \" + y);\nconsole.log(\"Character: \" + z);",
+    "Python Print": "print(\"Integer:\", x)\nprint(\"Float:\", y)\nprint(\"Character:\", z)\n",
+    "Java Print": "System.out.println(\"Integer: \" + x);\nSystem.out.println(\"Double: \" + y);\nSystem.out.println(\"Character: \" + z);",
+    "Kotlin Print": "println(\"Integer: $x\")\n\nprintln(\"Double: $y\")\n\nprintln(\"Character: $z\")\n",
+    "C++ Print": "cout << \"Integer: \" << x << endl;\ncout << \"Double: \" << y << endl;\ncout << \"Character: \" << z << endl;",
+    "Haskell Print": "putStrLn $ \"Integer: \" ++ show x\nputStrLn $ \"Double: \" ++ show y\nputStrLn $ \"Character: \" ++ show z",
+    "C Print": "printf(\"Integer: %d\\n\", x);\nprintf(\"Float: %f\\n\", y);\nprintf(\"Character: %c\\n\", z);"
+}

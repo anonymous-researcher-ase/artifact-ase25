@@ -1,0 +1,10 @@
+{
+    "Rust ReturnByValue": "fn return_by_value(a: i32) -> i32 {\n    a * a\n}",
+    "JavaScript ReturnByValue": "function returnByValue(a) {\n    return a * a;\n}",
+    "Python ReturnByValue": "def return_by_value(a):\n    return a * a\n",
+    "Java ReturnByValue": "public static int[] returnByValue(int a) {\n    int[] result = new int[1];\n    result[0] = a * a;\n    return result;\n}",
+    "Kotlin ReturnByValue": "fun returnByValue(a: Int): Int {\n    return a * a\n}\n",
+    "C++ ReturnByValue": "int *returnByValue(int a)\n{\n    static int result;\n    result = a * a;\n    return &result;\n}",
+    "Haskell ReturnByValue": "returnByValue :: Int -> Int\nreturnByValue a = a * a",
+    "C ReturnByValue": "int *return_by_value(int a)\n{\n    static int result;\n    result = a * a;\n    return &result;\n}"
+}

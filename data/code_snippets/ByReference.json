@@ -1,0 +1,10 @@
+{
+    "Rust ByReference": "fn by_reference(a: &mut i32, b: &mut f32, c: &mut char) {\n    *a *= 2;\n    *b *= 2.0;\n    *c = std::char::from_u32(c.clone() as u32 + 1).unwrap();\n}",
+    "JavaScript ByReference": "function byReference(a, b, c) {\n    a[0] *= 2;\n    b[0] *= 2;\n    c[0] = String.fromCharCode(c[0].charCodeAt(0) + 1);\n}",
+    "Python ByReference": "def by_reference(a, b, c):\n    a[0] *= 2\n    b[0] *= 2\n    c[0] = chr(ord(c[0]) + 1)\n",
+    "Java ByReference": "public static void byReference(int[] a, float[] b, char[] c) {\n    a[0] = a[0] * 2;\n    b[0] = b[0] * 2;\n    c[0]++;\n}",
+    "Kotlin ByReference": "fun byReference(a: IntArray, b: FloatArray, c: CharArray) {\n    a[0] *= 2\n    b[0] *= 2\n    c[0] = (c[0].toInt() + 1).toChar()\n}\n",
+    "C++ ByReference": "void byReference(int &a, float &b, char &c)\n{\n    a = a * 2;\n    b = b * 2;\n    c = c + 1;\n}",
+    "Haskell ByReference": "byReference :: Int -> Float -> Char -> (Int, Float, Char)\nbyReference a b c = (a * 2, b * 2, succ c)",
+    "C ByReference": "void by_reference(int *a, float *b, char *c)\n{\n    *a = *a * 2;\n    *b = *b * 2;\n    *c = *c + 1;\n}"
+}

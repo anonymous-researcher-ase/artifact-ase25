@@ -1,0 +1,10 @@
+{
+    "Rust IfElse": "if foo > bar {\n    println!(\"foo is greater than bar\");\n} else {\n    println!(\"foo is not greater than bar\");\n}",
+    "JavaScript IfElse": "if (foo > bar) {\n    console.log(\"foo is greater than bar\");\n} else {\n    console.log(\"foo is not greater than bar\");\n}",
+    "Python IfElse": "if foo > bar:\n    print(\"foo is greater than bar\")\nelse:\n    print(\"foo is not greater than bar\")\n",
+    "Java IfElse": "if (foo > bar) {\n    System.out.println(\"foo is greater than bar\");\n} else {\n    System.out.println(\"foo is not greater than bar\");\n}",
+    "Kotlin IfElse": "if (foo > bar) {\n    println(\"foo is greater than bar\")\n} else {\n    println(\"foo is not greater than bar\")\n}\n",
+    "C++ IfElse": "if (foo > bar)\n{\n    cout << \"foo is greater than bar\" << endl;\n}\nelse\n{\n    cout << \"foo is not greater than bar\" << endl;\n}",
+    "Haskell IfElse": "if foo > bar\n    then putStrLn \"foo is greater than bar\"\n    else putStrLn \"foo is not greater than bar\"",
+    "C IfElse": "if (foo > bar)\n{\n    printf(\"foo is greater than bar\\n\");\n}\nelse\n{\n    printf(\"foo is not greater than bar\\n\");\n}"
+}

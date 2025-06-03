@@ -1,0 +1,10 @@
+{
+    "Rust For": "for i in 0..foo {\n    sum += i;\n}",
+    "JavaScript For": "for (let i = 0; i < foo; i++) {\n    sum += i;\n}",
+    "Python For": "for i in range(foo):\n    sum_val += i\n",
+    "Java For": "for (int i = 0; i < foo; i++) {\n    sum += i;\n}",
+    "Kotlin For": "for (i in 0 until foo) {\n    sum += i\n}\n",
+    "C++ For": "for (int i = 0; i < foo; i++)\n{\n    baz += i;\n}",
+    "Haskell For": "let sum' = foldl (\\acc x -> acc + x) 0 [0..foo - 1]",
+    "C For": "for (int i = 0; i < foo; i++)\n{\n    baz += i;\n}"
+}

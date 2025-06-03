@@ -1,0 +1,10 @@
+{
+    "Rust ComparisonOperator": "let plugh = foo == bar;\nlet quxquux = foo != bar;\nlet corgegrault = foo > bar;\nlet garplywaldo = foo < bar;\nlet fredplugh = foo >= bar;\nlet xyzzyqux = foo <= bar;",
+    "JavaScript ComparisonOperator": "let plugh = foo == bar;\nlet quxquux = foo != bar;\nlet corgegrault = foo > bar;\nlet garplywaldo = foo < bar;\nlet fredplugh = foo >= bar;\nlet xyzzyqux = foo <= bar;",
+    "Python ComparisonOperator": "plugh = foo == bar\nquxquux = foo != bar\ncorgegrault = foo > bar\ngarplywaldo = foo < bar\nfredplugh = foo >= bar\nxyzzyqux = foo <= bar\n",
+    "Java ComparisonOperator": "boolean garplywaldo = foo == bar;\nboolean corgegrault = foo != bar;\nboolean garplyqux = foo > bar;\nboolean corgequux = foo < bar;\nboolean graultgarply = foo >= bar;\nboolean fredquux = foo <= bar;",
+    "Kotlin ComparisonOperator": "var plugh = foo == bar\nvar quxquux = foo != bar\nvar corgegrault = foo > bar\nvar garplywaldo = foo < bar\nvar fredplugh = foo >= bar\nvar xyzzyqux = foo <= bar\n",
+    "C++ ComparisonOperator": "bool plugh = foo == bar;\nbool quxquux = foo != bar;\nbool corgegrault = foo > bar;\nbool garplywaldo = foo < bar;\nbool fredplugh = foo >= bar;\nbool xyzzyqux = foo <= bar;",
+    "Haskell ComparisonOperator": "let plugh = x == y\n    xyzzy = x /= y\n    thud = x > y\n    quxquux = x < y\n    corgegrault = x >= y\n    garplywaldo = x <= y\n",
+    "C ComparisonOperator": "int plugh = foo == bar;\nint quxquux = foo != bar;\nint corgegrault = foo > bar;\nint garplywaldo = foo < bar;\nint fredplugh = foo >= bar;\nint xyzzyqux = foo <= bar;"
+}

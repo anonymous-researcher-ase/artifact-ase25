@@ -1,0 +1,10 @@
+{
+    "Rust ByValue": "fn by_value(a: i32, b: f32, c: char) -> i32 {\n    (a as f32 + b + c as u32 as f32) as i32\n}",
+    "JavaScript ByValue": "function byValue(a, b, c) {\n    return Math.round(a + b + c.charCodeAt(0));\n}",
+    "Python ByValue": "def by_value(a, b, c):\n    return int(a + b + ord(c))\n",
+    "Java ByValue": "public static int byValue(int a, float b, char c) {\n    return (int) (a + b + c);\n}",
+    "Kotlin ByValue": "fun byValue(a: Int, b: Float, c: Char): Int {\n    return (a + b + c.toInt()).toInt()\n}\n",
+    "C++ ByValue": "int byValue(int a, float b, char c)\n{\n    return static_cast<int>(a + b + c);\n}",
+    "Haskell ByValue": "byValue :: Int -> Float -> Char -> Int\nbyValue a b c = round (fromIntegral a + b + fromIntegral (fromEnum c))",
+    "C ByValue": "int by_value(int a, float b, char c)\n{\n    return (int)(a + b + c);\n}"
+}
