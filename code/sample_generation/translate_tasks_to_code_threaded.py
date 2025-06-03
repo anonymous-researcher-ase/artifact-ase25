@@ -66,12 +66,12 @@ def process_language(lang):
     for code, feat_name in features:
         feat_file = task_input_dir / f"{code}_{safe_filename(feat_name)}.json"
         if not feat_file.exists():
-            print(f"❌ Missing feature file: {feat_file}")
+            print(f"Missing feature file: {feat_file}")
             continue
 
         output_path = lang_dir / f"{code}_{safe_filename(feat_name)}.json"
         if output_path.exists():
-            print(f"⏭️  Skipping {lang} - {code} (already exists)")
+            print(f"Skipping {lang} - {code} (already exists)")
             continue
 
         with open(feat_file) as f:
@@ -96,10 +96,10 @@ def process_language(lang):
                         "task": task,
                         "code": code_only
                     })
-                    print(f"✅ [{lang}] {code} Task {idx+1}")
+                    print(f"[{lang}] {code} Task {idx+1}")
                     break
                 except Exception as e:
-                    print(f"⚠️  Retry {attempt + 1} failed for [{lang}] {code} Task {idx+1}: {e}")
+                    print(f"Retry {attempt + 1} failed for [{lang}] {code} Task {idx+1}: {e}")
                     sleep(3)
                     if attempt == max_retries - 1:
                         task_code_pairs.append({
@@ -110,7 +110,7 @@ def process_language(lang):
 
         with open(output_path, "w") as f:
             json.dump(task_code_pairs, f, indent=2)
-        print(f"💾 Saved to {output_path}")
+        print(f"Saved to {output_path}")
 
 # 主线程调度器
 if __name__ == "__main__":
